@@ -1,0 +1,10 @@
+The ammount to pay BUGS is: 145
+The ammount to pay SILVESTER is: 140
+The ammount to pay SPEDDY is: 85
+The ammount to pay WILLY.E.COYOTE is: 105
+The ammount to pay RENE is: 215
+The ammount to pay PORKY is: 55
+The ammount to pay ASTRID is: 85
+0-15:00,SA11:00-15:00,SA02:00-06:00
+PORKY=MO01:00-18:00,TH12:00-14:00,SU20:00-21:00
+SPEDDY=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
