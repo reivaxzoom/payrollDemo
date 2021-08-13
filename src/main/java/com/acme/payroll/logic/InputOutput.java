@@ -50,7 +50,7 @@ public interface InputOutput {
     
 
     public  Consumer<List<Roster>> printOutput = rosters -> {
-        Path outputFile= getWorkingPath("data", config.getString("input.file"));
+        Path outputFile= getWorkingPath("data", config.getString("output.file"));
         List<String> parsedOutput = rosters.stream().map(s -> MessageFormat.format(config.getString("output.format"), s.getName(), s.getTotalAmmount().toString())).collect(Collectors.toList());
         Iterator<String> it = parsedOutput.iterator();
         try (final PrintWriter out = new PrintWriter(new OutputStreamWriter(Files.newOutputStream(outputFile, StandardOpenOption.CREATE), "UTF8"))) {
